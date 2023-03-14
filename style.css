@@ -56,11 +56,6 @@ body{
     border: 2px solid #d1d3d4;
 }
 
-#newtask input:focus{
-    outline: none;
-    border-color: #0d75ec;
-}
-
 #newtask button{
     position: relative;
     float: right;
