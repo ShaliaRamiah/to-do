@@ -7,17 +7,18 @@ body{
     display: flex;
 }
 
-/* .text-header { 
+.text-header { 
     color: white; 
     text-align: center; 
     top: 220px; 
     width: 140px; 
     height: 40px;
-    left: 35%; 
+    left: 43%; 
     position: absolute ; 
     background: #cda42a;
     margin: 30px; 
-} */
+    border-radius: 20px;
+}
 
 .textHappy { 
     margin: 10px; 
@@ -32,7 +33,7 @@ body{
     height: 30%;
     background: #feb300;
     padding-top: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
     min-width: 450px;
     min-height: 100px;
 }
