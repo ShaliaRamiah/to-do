@@ -1,0 +1,116 @@
+
+body{
+    height: 100vh;
+    background: #fff5d7;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+/* .text-header { 
+    color: white; 
+    text-align: center; 
+    top: 220px; 
+    width: 140px; 
+    height: 40px;
+    left: 35%; 
+    position: absolute ; 
+    background: #cda42a;
+    margin: 30px; 
+} */
+
+.textHappy { 
+    margin: 10px; 
+    text-align: left; 
+    padding: 20px 10px 20px 10px; 
+    border: 2px dashed #cda42a;
+    -webkit-text-fill-color: #ffffff;
+}
+
+.container{
+    width: 50%;
+    height: 30%;
+    background: #feb300;
+    padding-top: 20px;
+    border-radius: 10px;
+    min-width: 450px;
+    min-height: 100px;
+}
+
+#newtask{
+    position: relative;
+    padding: 30px 20px;
+}
+
+#newtask input{
+    width: 70%;
+    height: 30px;
+    padding: 10px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+}
+
+#newtask input:focus{
+    outline: none;
+    border-color: #0d75ec;
+}
+
+#newtask button{
+    position: relative;
+    float: right;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #ff5e6c;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    width: 20%;
+    height: 50px;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+}
+
+#tasksDisplayed{
+    border-radius: 10px;
+    width: 90%;
+    position: relative;
+    background-color: #feb300;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.task{
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #d9e1ed;
+    cursor: pointer;
+    background-color: #faeced;
+    height: 50px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+}
+
+.task span{
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.task button{
+    background-color: #ffaaab;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 50%;
+    width: 30px;
+    border-radius: 5px;
+}
